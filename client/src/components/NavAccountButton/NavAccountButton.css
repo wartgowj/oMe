@@ -1,0 +1,13 @@
+.profile-pic {
+        display: inline-block;
+        overflow: hidden;
+        line-height: 1;
+        vertical-align: middle;
+        border-radius: 3px;
+        width: 40px;
+}
+#dropdown-size-extra-small{
+	margin-left: 60px !important;
+	background-color: transparent;
+    border-color: transparent;
+}

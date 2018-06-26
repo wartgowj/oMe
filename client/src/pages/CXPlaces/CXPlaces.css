@@ -1,0 +1,212 @@
+.listBox{
+    background: #fff;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    margin: auto;
+    padding: 1em 1em;
+    border-radius: .28571429rem;
+    border: 1px solid rgba(34,36,38,.15);	
+    width: 60%;
+    display: flex;
+
+}
+body{
+  background-size: cover!important
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: blue;
+  text-decoration: none; /* no underline */
+}
+
+.cxName{
+
+  text-decoration: none; /* no underline */
+  color: #0000009e;
+}
+
+.address{
+	color: #63666a;
+
+    text-overflow: ellipsis;
+
+
+}
+
+.distance{
+    color: #63666a;
+    margin-top: 1%;
+}
+.vertical_dotted_line
+{
+    border-left: 1px dotted #999999;
+    height: 120px;
+    margin: 15px;
+} 
+
+.nameContainer{
+	width: 500px;
+}
+
+.buttons {
+  width:58.7%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 21.7%;
+}
+
+.cxplaceContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.buyBox {
+	font-size: 18px;
+    margin-top: 21px;
+    margin-bottom: 10.5px;
+    font-family: "News Cycle","Arial Narrow Bold",sans-serif;
+    line-height: 1;
+
+}
+
+.buyGreen{
+  color:#85bb65 ;
+}
+.sellRed{
+  color:#c86b71;
+}
+
+button.buyButton.btn.btn-default {
+  margin-left: 14px;
+}
+
+button.sellButton.btn.btn-default{
+  margin-left:14px;
+
+}
+
+.btn-group>.btn:first-child {
+  color:#2c2c2c9e;
+}
+
+.buyButton{
+    color: #fff;
+    border: 1px solid #85bb65 !important;
+    background-color: #85bb65 !important;
+}
+
+.buyButton:hover{
+    color: #85bb65;
+    border: 1px solid #85bb65;
+    background-color: white;
+
+}
+.sellButton{
+  color: #fff;
+  border: 1px solid #c86b71 !important;
+  background-color: #c86b71 !important;
+}
+
+.sellButton:hover{
+    color: #c86b71;
+    border: 1px solid #c86b71;
+    background-color: white;
+
+}
+
+.dropdown-menu {
+  left: 0 !important;
+}
+
+.mapFont{
+    margin-left: 5px;
+    text-transform: none;
+    color: #0000009e;
+}
+.mapIcon{
+      height: 35px;
+    margin: -7px;
+}
+.lastUpdated {
+    font-style: italic;
+    font-size: 14px;
+}
+.cxName:hover{
+  color:#5183bf;
+}
+.address:hover{
+ color:#5183bf; 
+}
+/*iphone 6/7/8 plus */
+@media (min-width: 320px) and (max-width: 579px) {
+  .list{
+    margin-left: -10px;
+    display:block;
+    width:94%;
+  }
+  .vertical_dotted_line {
+    display: none;
+  }
+
+  .backButton{
+    left: 70%;
+    width: 20%;
+  }
+  body {
+    background-color: #a1c6eb;
+    background-image: none !important;
+  }
+  .cxName{
+    font-size: 20px;
+  }
+  .address{
+    font-size: 12px;
+  }
+  .modal{
+    width: 300px!important;
+  }
+  .nameContainer{
+    width:320px;
+  }
+  .buttons {
+    width: 85%;
+    margin-left: 7.5%;
+  }
+}
+/*iphone X*/
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+      .list {
+        width: 95%;
+      }
+
+      .listDetail{
+            width: 84%!important; 
+      }
+      
+}
+
+/*IPAD*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+    .listBox{
+    width: 80%;
+    margin: auto;
+    }
+
+    a {
+      width: inherit;
+    }
+
+    .nameContainer {
+      width: 100%;
+    }
+
+}

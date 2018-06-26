@@ -1,0 +1,50 @@
+.footer {
+    display: flex;
+     clear: both;
+     background:rgba(0,0,0,0.08);
+     height: 62px;
+     justify-content: space-evenly;
+     line-height: 62px;
+     position: static;
+     bottom: 0;
+     width: 100%;
+     margin-top: 10px;
+} 
+
+.githubLogo{
+    height: 39px;
+    background:rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+    margin-left: 33%;
+    border-radius: 5%;
+    width: 110px;
+}
+
+.copyright{
+    color: black;
+    text-shadow:1px 1px white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.aboutButton{
+  border: 2px solid black !important;
+  background:rgba(0, 0, 0, 0.2) !important;
+  font-weight: bold;
+  width: 110px;
+}
+
+/*iphone 6/7/8 plus */
+
+@media (min-width: 320px) and (max-width: 579px) {
+    .copyright {
+        
+        font-size: 0px;
+        
+    }
+
+    .githubLogo {
+        margin-left: 0%;
+        
+    }
+}

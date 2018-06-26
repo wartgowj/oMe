@@ -1,0 +1,20 @@
+.button{
+	margin-left: -15px;
+	margin-bottom: 400px;
+}
+
+/*iphone 6/7/8 plus */
+
+@media (min-width: 320px) and (max-width: 579px) {
+	.button{
+		margin-bottom: 225px;
+	}
+}
+
+/*IPAD*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.button{
+		margin-bottom: 450px;
+	}
+}
