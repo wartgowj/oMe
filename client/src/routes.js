@@ -4,8 +4,7 @@ import Home from './pages/Home';
 import Callback from './components/Callback/Callback';
 import Auth from './components/Auth/Auth';
 import history from './utils/history';
-import Map from "./pages/Map"
-import NoMatch from "./pages/NoMatch"
+import NoMatch from "./pages/NoMatch";
 import Profile from './pages/Profile';
 
 
@@ -48,7 +47,6 @@ const makeMainRoutes = ({ children }) => {
                   <Profile auth={auth} {...props} />
                 )
             )} />
-            <Route exact path="/map" component={Map}/> 
             <Route component={NoMatch}/>
           </Switch>
           <Footer/>

@@ -8,7 +8,7 @@ const Button = () => (
     <div className="container">
       <div>
         <Link to="/cxplaces">
-        <button className="material-bubble">Find Rates</button>
+        <button className="material-bubble">Get Started</button>
         </Link>
       </div>
     </div>
