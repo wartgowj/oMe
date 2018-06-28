@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Button from "../../components/Button";
 import Header from "../../components/Header";
-import MAP from "../../services/Map";
 import "./Home.css";
 
 
@@ -12,16 +11,6 @@ class Home extends Component {
         this.props.auth.login();
     }
 
-    componentDidMount(){
-        this.getUserLocation();
-    }
-
-    getUserLocation = () => {
-        MAP.getLocation((position) => {
-            sessionStorage.userLat = position.coords.latitude;
-            sessionStorage.userLng = position.coords.longitude;
-        })
-    }
     render() {
     
         return (
